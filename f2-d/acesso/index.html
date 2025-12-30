@@ -4,41 +4,43 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="acesso/css/e13a5702f8c81d63.css" data-precedence="next" />
+    <!-- ✅ CSS está em /f2-d/css -->
+    <link rel="stylesheet" href="../css/e13a5702f8c81d63.css" data-precedence="next" />
 
-    <!-- ✅ _next vindo de /f2-d/acesso -->
+    <!-- ✅ _next está em /f2-d/_next -->
     <link
       rel="preload"
       as="script"
       fetchpriority="low"
-      href="/f2-d/acesso/_next/static/chunks/webpack-594a06f46d55343d.js"
+      href="/f2-d/_next/static/chunks/webpack-594a06f46d55343d.js"
     />
 
-    <!-- seus JS locais (relativos ao /f2-d/acesso) -->
-    <script src="acesso/js/fd9d1056-bb367eba3fb38883.js" async=""></script>
-    <script src="acesso/js/117-44754967ab35bebd.js" async=""></script>
-    <script src="acesso/js/main-app-cd99a2241b3b33c9.js" async=""></script>
-    <script src="acesso/js/d0272cb2-abb125cf7613b745.js" async=""></script>
-    <script src="acesso/js/896-321c6572481a96df.js" async=""></script>
-    <script src="acesso/js/712-9a5f8a1328cbc4d6.js" async=""></script>
-    <script src="acesso/js/187-38cf07343e561166.js" async=""></script>
-    <script src="acesso/js/460-ad4b38ee4901fe4a.js" async=""></script>
-    <script src="acesso/js/464-acf62278ab698e74.js" async=""></script>
-    <script src="acesso/js/978-e613c8715d577454.js" async=""></script>
-    <script src="acesso/js/page-a274630c9fc84542.js" async=""></script>
-    <script src="acesso/js/204-5baf56965a7caaf3.js" async=""></script>
-    <script src="acesso/js/layout-0c51d7c91bca5759.js" async=""></script>
+    <!-- ✅ JS está em /f2-d/js -->
+    <script src="../js/fd9d1056-bb367eba3fb38883.js" async=""></script>
+    <script src="../js/117-44754967ab35bebd.js" async=""></script>
+    <script src="../js/main-app-cd99a2241b3b33c9.js" async=""></script>
+    <script src="../js/d0272cb2-abb125cf7613b745.js" async=""></script>
+    <script src="../js/896-321c6572481a96df.js" async=""></script>
+    <script src="../js/712-9a5f8a1328cbc4d6.js" async=""></script>
+    <script src="../js/187-38cf07343e561166.js" async=""></script>
+    <script src="../js/460-ad4b38ee4901fe4a.js" async=""></script>
+    <script src="../js/464-acf62278ab698e74.js" async=""></script>
+    <script src="../js/978-e613c8715d577454.js" async=""></script>
+    <script src="../js/page-a274630c9fc84542.js" async=""></script>
+    <script src="../js/204-5baf56965a7caaf3.js" async=""></script>
+    <script src="../js/layout-0c51d7c91bca5759.js" async=""></script>
 
     <title>Cash No Pix</title>
     <meta name="description" content="Cash No Pix" />
 
-    <script src="acesso/js/polyfills-42372ed130431b0a.js" nomodule=""></script>
+    <script src="../js/polyfills-42372ed130431b0a.js" nomodule=""></script>
   </head>
 
   <body class="min-h-svh flex flex-col">
     <main
       class="fixed inset-0 flex items-center justify-center flex-col gap-[35px] z-[999999999] bg-primary"
     >
+      <!-- logo -->
       <svg width="225" height="49" viewBox="0 0 225 49" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_73_203)">
           <path d="M22.5545 36.6245C22.5545 37.0329 22.3496 37.2347 21.9348 37.4414C20.6953 38.1056 16.8671 38.765 13.0389 38.765C2.7937 38.765 0 34.1297 0 24.8592C0 15.5887 2.7937 10.9042 13.0389 10.9042C16.8671 10.9042 20.6953 11.6177 21.9348 12.2279C22.3496 12.4296 22.5545 12.6855 22.5545 13.0939V13.3498L21.8798 16.5088C21.7748 16.9665 21.415 17.119 21.1052 17.119C21.0002 17.119 20.8453 17.0698 20.7953 17.0698C19.6059 16.7647 17.3269 16.253 14.898 16.253C9.57053 16.253 8.01626 18.4919 8.01626 24.81C8.01626 31.1281 9.57053 33.4704 14.898 33.4704C17.3319 33.4704 19.6059 32.9586 20.7953 32.6535C20.8453 32.6535 21.0002 32.6043 21.1052 32.6043C21.415 32.6043 21.7798 32.7569 21.8798 33.2686L22.5545 36.3736V36.6294V36.6245Z" fill="white"></path>
@@ -71,46 +73,28 @@
             d="M14.5 8C14.5 9.72391 13.8152 11.3772 12.5962 12.5962C11.3772 13.8152 9.72391 14.5 8 14.5C6.27609 14.5 4.62279 13.8152 3.40381 12.5962C2.18482 11.3772 1.5 9.72391 1.5 8C1.5 5.4375 2.98813 3.1025 5.29125 2.04563C5.35092 2.01821 5.4154 2.00282 5.48102 2.00033C5.54664 1.99784 5.61211 2.00829 5.67368 2.0311C5.73526 2.05391 5.79174 2.08862 5.8399 2.13326C5.88806 2.1779 5.92696 2.23158 5.95437 2.29125C5.98179 2.35092 5.99718 2.41541 5.99967 2.48102C6.00217 2.54664 5.99171 2.61211 5.9689 2.67369C5.94609 2.73526 5.91138 2.79174 5.86674 2.83991C5.8221 2.88807 5.76842 2.92696 5.70875 2.95438C3.75937 3.84938 2.5 5.82938 2.5 8C2.5 9.45869 3.07946 10.8576 4.11091 11.8891C5.14236 12.9205 6.54131 13.5 8 13.5C9.45869 13.5 10.8576 12.9205 11.8891 11.8891C12.9205 10.8576 13.5 9.45869 13.5 8C13.5 5.82938 12.2406 3.84938 10.2913 2.95438C10.1707 2.89901 10.0772 2.79805 10.0311 2.67369C9.98504 2.54933 9.99026 2.41176 10.0456 2.29125C10.101 2.17075 10.202 2.07717 10.3263 2.0311C10.4507 1.98504 10.5882 1.99026 10.7087 2.04563C13.0119 3.1025 14.5 5.4375 14.5 8Z"
           ></path>
         </svg>
-
-        <h1
-          class="text-white/70 font-bold leading-[16.59px] tracking-[0.08em] text-sm font-rubik animate-pulse"
-        >
+        <h1 class="text-white/70 font-bold leading-[16.59px] tracking-[0.08em] text-sm font-rubik animate-pulse">
           CARREGANDO...
         </h1>
       </div>
     </main>
 
-    <!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
-    <!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
+    <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
+    <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
 
-    <main class="flex-1 flex flex-col" style="opacity: 0">
+    <main class="flex-1 flex flex-col" style="opacity:0">
       <div class="py-[18px] flex flex-col">
-        <div style="opacity: 0">
+        <div style="opacity:0">
           <div class="pt-8 space-y-[18px]">
-            <div class="" style="width: 100%; height: 100%; line-height: 0">
-              <canvas style="width: 100%; height: 100%"></canvas>
+            <div class="" style="width:100%;height:100%;line-height:0">
+              <canvas style="width:100%;height:100%"></canvas>
             </div>
-
             <div class="flex justify-center px-mobile-18">
               <div class="flex items-center gap-2 animate-pulse">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="size-4 animate-spin fill-black/70"
-                >
-                  <path
-                    d="M14.5 8C14.5 9.72391 13.8152 11.3772 12.5962 12.5962C11.3772 13.8152 9.72391 14.5 8 14.5C6.27609 14.5 4.62279 13.8152 3.40381 12.5962C2.18482 11.3772 1.5 9.72391 1.5 8C1.5 5.4375 2.98813 3.1025 5.29125 2.04563C5.35092 2.01821 5.4154 2.00282 5.48102 2.00033C5.54664 1.99784 5.61211 2.00829 5.67368 2.0311C5.73526 2.05391 5.79174 2.08862 5.8399 2.13326C5.88806 2.1779 5.92696 2.23158 5.95437 2.29125C5.98179 2.35092 5.99718 2.41541 5.99967 2.48102C6.00217 2.54664 5.99171 2.61211 5.9689 2.67369C5.94609 2.73526 5.91138 2.79174 5.86674 2.83991C5.8221 2.88807 5.76842 2.92696 5.70875 2.95438C3.75937 3.84938 2.5 5.82938 2.5 8C2.5 9.45869 3.07946 10.8576 4.11091 11.8891C5.14236 12.9205 6.54131 13.5 8 13.5C9.45869 13.5 10.8576 12.9205 11.8891 11.8891C12.9205 10.8576 13.5 9.45869 13.5 8C13.5 5.82938 12.2406 3.84938 10.2913 2.95438C10.1707 2.89901 10.0772 2.79805 10.0311 2.67369C9.98504 2.54933 9.99026 2.41176 10.0456 2.29125C10.101 2.17075 10.202 2.07717 10.3263 2.0311C10.4507 1.98504 10.5882 1.99026 10.7087 2.04563C13.0119 3.1025 14.5 5.4375 14.5 8Z"
-                  ></path>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-4 animate-spin fill-black/70">
+                  <path d="M14.5 8C14.5 9.72391 13.8152 11.3772 12.5962 12.5962C11.3772 13.8152 9.72391 14.5 8 14.5C6.27609 14.5 4.62279 13.8152 3.40381 12.5962C2.18482 11.3772 1.5 9.72391 1.5 8C1.5 5.4375 2.98813 3.1025 5.29125 2.04563C5.35092 2.01821 5.4154 2.00282 5.48102 2.00033C5.54664 1.99784 5.61211 2.00829 5.67368 2.0311C5.73526 2.05391 5.79174 2.08862 5.8399 2.13326C5.88806 2.1779 5.92696 2.23158 5.95437 2.29125C5.98179 2.35092 5.99718 2.41541 5.99967 2.48102C6.00217 2.54664 5.99171 2.61211 5.9689 2.67369C5.94609 2.73526 5.91138 2.79174 5.86674 2.83991C5.8221 2.88807 5.76842 2.92696 5.70875 2.95438C3.75937 3.84938 2.5 5.82938 2.5 8C2.5 9.45869 3.07946 10.8576 4.11091 11.8891C5.14236 12.9205 6.54131 13.5 8 13.5C9.45869 13.5 10.8576 12.9205 11.8891 11.8891C12.9205 10.8576 13.5 9.45869 13.5 8C13.5 5.82938 12.2406 3.84938 10.2913 2.95438C10.1707 2.89901 10.0772 2.79805 10.0311 2.67369C9.98504 2.54933 9.99026 2.41176 10.0456 2.29125C10.101 2.17075 10.202 2.07717 10.3263 2.0311C10.4507 1.98504 10.5882 1.99026 10.7087 2.04563C13.0119 3.1025 14.5 5.4375 14.5 8Z"></path>
                 </svg>
-
-                <h1
-                  class="text-black/70 font-bold leading-[16.42px] tracking-[0.08em] text-sm uppercase"
-                >
-                  Procurando valores para saque
-                </h1>
+                <h1 class="text-black/70 font-bold leading-[16.42px] tracking-[0.08em] text-sm uppercase">Procurando valores para saque</h1>
               </div>
             </div>
           </div>
@@ -118,23 +102,24 @@
       </div>
     </main>
 
-    <!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
+    <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
 
-    <script src="acesso/js/webpack-594a06f46d55343d.js" async=""></script>
+    <!-- ✅ webpack do _next -->
+    <script src="/f2-d/_next/static/chunks/webpack-594a06f46d55343d.js" async=""></script>
 
     <script>
       (self.__next_f = self.__next_f || []).push([0]);
       self.__next_f.push([2, null]);
     </script>
 
-    <!-- ✅ AJUSTE: HL com caminho correto -->
+    <!-- ✅ CSS do _next correto -->
     <script>
-      self.__next_f.push([1, "1:HL[\"/f2-d/acesso/_next/static/css/e13a5702f8c81d63.css\",\"style\"]\n"]);
+      self.__next_f.push([1, "1:HL[\"/f2-d/_next/static/css/e13a5702f8c81d63.css\",\"style\"]\n"]);
     </script>
 
-    <!-- ✅ AJUSTE: assetPrefix + link stylesheet -->
+    <!-- ✅ assetPrefix correto pra sua estrutura -->
     <script>
-      self.__next_f.push([1, "2:I[2846,[],\"\"]\n4:I[9107,[],\"ClientPageRoot\"]\n5:I[3655,[\"486\",\"static/chunks/d0272cb2-abb125cf7613b745.js\",\"896\",\"static/chunks/896-321c6572481a96df.js\",\"712\",\"static/chunks/712-9a5f8a1328cbc4d6.js\",\"187\",\"static/chunks/187-38cf07343e561166.js\",\"460\",\"static/chunks/460-ad4b38ee4901fe4a.js\",\"464\",\"static/chunks/464-acf62278ab698e74.js\",\"978\",\"static/chunks/978-e613c8715d577454.js\",\"565\",\"static/chunks/app/acesso/page-a274630c9fc84542.js\"],\"default\",1]\n6:I[4707,[],\"\"]\n7:I[6423,[],\"\"]\na:I[1060,[],\"\"]\nb:[]\n0:[\"$\",\"$L2\",null,{\"buildId\":\"zA-hdHZXH2s2Iw6q_XH5k\",\"assetPrefix\":\"/f2-d/acesso\",\"urlParts\":[\"\",\"acesso\"],\"initialTree\":[\"\",{\"children\":[\"acesso\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"acesso\",{\"children\":[\"__PAGE__\",{},[[\"$L3\",[\"$\",\"$L4\",null,{\"props\":{\"params\":{},\"searchParams\":{}},\"Component\":\"$5\"}],null],null],null]},[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"acesso\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/f2-d/acesso/_next/static/css/e13a5702f8c81d63.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],\"$L8\"],null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$L9\"],\"globalErrorComponent\":\"$a\",\"missingSlots\":\"$Wb\"}]\n"]);
+      self.__next_f.push([1, "2:I[2846,[],\"\"]\n4:I[9107,[],\"ClientPageRoot\"]\n5:I[3655,[\"486\",\"static/chunks/d0272cb2-abb125cf7613b745.js\",\"896\",\"static/chunks/896-321c6572481a96df.js\",\"712\",\"static/chunks/712-9a5f8a1328cbc4d6.js\",\"187\",\"static/chunks/187-38cf07343e561166.js\",\"460\",\"static/chunks/460-ad4b38ee4901fe4a.js\",\"464\",\"static/chunks/464-acf62278ab698e74.js\",\"978\",\"static/chunks/978-e613c8715d577454.js\",\"565\",\"static/chunks/app/acesso/page-a274630c9fc84542.js\"],\"default\",1]\n6:I[4707,[],\"\"]\n7:I[6423,[],\"\"]\na:I[1060,[],\"\"]\nb:[]\n0:[\"$\",\"$L2\",null,{\"buildId\":\"zA-hdHZXH2s2Iw6q_XH5k\",\"assetPrefix\":\"/f2-d\",\"urlParts\":[\"\",\"acesso\"],\"initialTree\":[\"\",{\"children\":[\"acesso\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"acesso\",{\"children\":[\"__PAGE__\",{},[[\"$L3\",[\"$\",\"$L4\",null,{\"props\":{\"params\":{},\"searchParams\":{}},\"Component\":\"$5\"}],null],null],null]},[null,[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"acesso\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\"}]],null]},[[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/f2-d/_next/static/css/e13a5702f8c81d63.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],\"$L8\"],null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$L9\"],\"globalErrorComponent\":\"$a\",\"missingSlots\":\"$Wb\"}]\n"]);
     </script>
 
     <script>
